@@ -1,0 +1,44 @@
+For..in loop is like the for each.
+it iterates through the properties of array/object untill the end.
+
+Example:
+var name = ARUN;
+for(i in name){
+	console.log(name[i]);
+}
+it will print
+a
+r
+u
+n
+
+FOR OF Loop
+it iterates through the values of array/object untill the end.
+Example:
+var name = ARUN;
+for(i in name){
+	console.log(i);
+}
+it will print
+a
+r
+u
+n
+
+Switch Loop 
+It executes code based on expression/input. It can run through different cases to get a match.
+We can use a default case to execute when there is no expression matching the case.
+
+Syntax:
+
+switch(expression){
+case expression:
+	//statements
+	break;
+case expression2:
+	//statments
+	break;
+default:
+	//statments
+	break;
+}
