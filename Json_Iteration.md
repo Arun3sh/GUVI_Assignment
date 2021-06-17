@@ -35,6 +35,6 @@ Object.values(obj).forEach(entry => {
   
   console.log(a+":"+b);
   
-  });
+  }); 
 
 });
