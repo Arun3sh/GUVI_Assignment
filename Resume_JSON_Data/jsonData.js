@@ -2,6 +2,8 @@ var arr = [{Name:"Aruneshwaran", "Email id": "m.aruneshwar@gmail.com", "Phone Nu
 
 for (var i in arr) {
   for(var j in arr[i]){
-    console.log(j + " : " + arr[i][j]);
+    a += (""+j + " : " + arr[i][j] + "\n");
   }
 }
+document.getElementById("demoData").innerHTML = a;
+console.log(a);
