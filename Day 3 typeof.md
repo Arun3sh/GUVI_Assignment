@@ -2,7 +2,7 @@
 	
 	Browser accepts the code wothout those tags. But at certain times the content that should not be known for user may get displayed.
 	Like the content in head may be read under body section. Also if there is any change to the style we can declare it under head rather than changing it in all places.
-	So I think going with the tags can make coding better, even for any other than the original codeer to read the code.
+	So I think going with the tags can make coding better, even for any other than the original coder to read the code.
 
 2. Difference between <div>, <article>, <section> tag?
 
